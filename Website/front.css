@@ -1,0 +1,106 @@
+section{
+    position:fixed;
+    min-height : 4%;
+    width: 100%;
+    border:1px solid white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+#sec1{
+    margin-left: 20%;
+    align-self: center;
+    border: 0px ;
+}
+#sec2{
+    margin-left: 80%;
+    border: 0px ;
+    align-self: center;
+}
+img{
+    margin-left: 10px;
+    height: 50px;
+    align-self: center;
+}
+
+#image2{
+    width: fit-content;
+    height:fit-content
+}
+
+div{
+    color : white;
+    min-height: 20px;
+    width : 10%;
+}
+
+#frontimage>img{
+    width: 95%;
+    height: fit-content;
+}
+
+#frontimage{
+    display: inline;
+}
+
+#about_us{
+    color: white;
+    display: inline-block;
+}
+
+#special_coffee{
+    display: inline;
+    color: white;
+}
+
+#special_answer{
+    color: white;
+}
+
+#learnmore{
+    color: white;
+    background-color: darkgoldenrod;
+}
+
+table{
+    width: 100%;
+    height: auto;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+
+
+body{
+    background-color: black;
+}
+
+i{
+    color: white;
+    width:5%;
+}
+
+h1{
+    display: inline-block;
+    color:white;
+    text-align: center;
+}
+h1:nth-of-type(1){
+    color:goldenrod;
+    margin-left: 40%;
+}
+h1:nth-of-type(2){
+    display: inline-block;
+    color:white;
+}
+@media all and (min-width:800px){
+    div{
+        color : white;
+        min-height: 20px;
+        width : 7%;
+    }
+}
+
